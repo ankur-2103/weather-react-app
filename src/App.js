@@ -9,7 +9,7 @@ import cold from './cold-bg.jpg';
 import warm from './warm-bg.jpg';
 
 function App() {
-  const API_KEY = ""; //GET IT FROM OPENWEATHER
+  const API_KEY = ""; //GET IT FROM OPENWEATHERMAP
   const [cityName, setCityName] = useState('Mumbai');
   const [query, setQuery] = useState(`https://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&appid=${API_KEY}`);
   const [weather, setWeather] = useState({});
